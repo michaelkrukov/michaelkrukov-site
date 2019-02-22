@@ -1,0 +1,74 @@
+/* Global styles */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+}
+
+/* Basic elements */
+
+.page {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 24px 0;
+}
+
+button.link {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+button.link:hover {
+    text-decoration: underline;
+}
+
+.sign {
+    position: fixed;
+
+    right: 9px;
+    bottom: 8px;
+
+    font-size: 0.7rem;
+}
+
+/* Concrete */
+.projects {
+    margin-top: 16px;
+}
+.projects-list {
+    margin-left: 4px;
+}
+.project {
+    padding: 4px;
+}
+
+.contacts {
+    margin-top: 16px;
+}
+.contacts-list {
+    margin-left: 4px;
+}
+.contact {
+    display: inline-block;
+    padding: 4px;
+}
+
+/* Utils */
+
+.hidden {
+    display: none;
+}
+
+.transparent {
+    opacity: 0;
+    pointer-events: none;
+}
